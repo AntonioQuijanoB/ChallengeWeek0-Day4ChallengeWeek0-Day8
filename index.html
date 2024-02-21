@@ -1,9 +1,45 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="stylesheet" href="styles/styles.css"/>
+    <link rel="shortcut icon" href="faviconp.svg" type="image/x-icon" />
+    <script src="scripts/index.js"></script>
+    <title>Challenge: Pizza form</title>
   </head>
-  <body></body>
+  <body>
+    <header>
+      <h1>¡Ayuda a Edu a pedir una pizza!</h1>
+      <h2>Tipo</h2>
+    </header>
+    <p>Tamaño de pizza</p>
+    <form action="#">
+      <label for="lang"></label>
+      <select name="tamaño" id="lang">
+        <option value="pequeña">Pequeña</option>
+        <option value="mediana">Mediana</option>
+        <option value="grande">Grande</option>
+      </select>
+    </form>
+    <p>Tipo de masa</p>
+    <form action="#">
+      <label for="lang" id="primero"></label>
+      <select name="masa" id="lang">
+        <option value="fina">Fina</option>
+        <option value="gruesa">Gruesa</option>
+        <option value="pan">Pan</option>
+      </select>
+    </form>
+    <h2>Ingredientes</h2>
+    <ul>
+      <p>
+        <label name="Ingredientes" id="segundo"></label>
+      <p><input name="setas" type="checkbox" />Setas<br /></p>
+      <p><input name="cebolla" type="checkbox" />Cebolla<br /></p>
+      <p><input name="pimiento" type="checkbox" />Pimiento<br /></p>
+      <input name="piña" type="checkbox" />Piña<br />
+    </form>
+    <p><button>Pedir pizza</button></p>
+  </body>
 </html>

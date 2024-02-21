@@ -1,0 +1,28 @@
+h1 {
+  color: red;
+}
+button {
+  background-color: red;
+  padding: 10px 20px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+h2 {
+  color: white;
+}
+* {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  align-items: center;
+  color: white;
+}
+
+body {
+  font-size: large;
+  background-image: url(/pizzadefinitiva.jpg);
+  background-size: 99%;
+  margin-block: 50px;
+  margin-inline: 50px;
+}
