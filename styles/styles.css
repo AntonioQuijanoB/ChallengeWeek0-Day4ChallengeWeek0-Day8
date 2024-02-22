@@ -2,11 +2,12 @@ h1 {
   color: red;
 }
 button {
+  margin-left: -4%;
   background-color: red;
-  padding: 10px 20px;
+  padding: 20px 30px;
   color: white;
   border: none;
-  border-radius: 5px;
+  border-radius: 100px;
   cursor: pointer;
 }
 
@@ -25,4 +26,7 @@ body {
   background-size: 99%;
   margin-block: 50px;
   margin-inline: 50px;
+}
+label {
+  margin-left: 0%;
 }
